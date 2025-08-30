@@ -5,7 +5,7 @@
 ![screenshot](./src/SS1.png)
 
 ---
-## 📦 Components
+## Components
 
 | Component | Description |
 |-----------|-------------|
@@ -20,7 +20,7 @@
 | Kvantum   | An SVG-based theme engine for Qt5/6 and KDE. |
 
 ---
-## 🧰 System Info
+## System Info
 
 | Type             | Details                               |
 |------------------|---------------------------------------|
@@ -36,7 +36,7 @@
 | **Cursor** | Bibata-Modern-Ice               |
 
 ---
-## 📸 More Screenshot(s)
+## More Screenshot(s)
 
 ![screenshot2](./src/SS2.png)
 ![screenshot3](./src/SS3.png)
