@@ -28,12 +28,12 @@
 | **Window Manager**| Spectrwm                              |
 | **Display Server**| X11                                   |
 | **Terminal** | Sakura                                 |
-| **Font** | JetBrainsMono Nerd Font               |
+| **Font** | JetBrainsMono NF, AdwaitaMono NF, Ubuntu NF, Iosevka NF          |
 | **Shell** | Bash                                   |
-| **Bar** | Spectrwm Bar (built-in)               |
-| **Theme** | Materia-dark-compact            |
-| **Icon** | Materia-Manjaro-Dark            |
-| **Cursor** | Bibata-Modern-Ice               |
+| **Bar** | No bar. Bar is overrated               |
+| **Theme** | Squared            |
+| **Icon** | GreyStone            |
+| **Cursor** | MogaGrey               |
 
 ---
 ## More Screenshot(s)
