@@ -1,0 +1,12 @@
+prefix=/home/annpenrose/.local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Chafa
+Description: Image to character art facsimile
+Requires: glib-2.0
+Version: 1.17.0
+Libs: -L${libdir} -lchafa
+Libs.private: -lm
+Cflags: -I${includedir}/chafa -I${libdir}/chafa/include

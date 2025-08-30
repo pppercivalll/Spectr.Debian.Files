@@ -1,0 +1,7 @@
+! --- dmenu Configuration (Squared Theme) ---
+dmenu.font:         Ubuntu Nerd Font:size=12
+dmenu.background:   #1A2023
+dmenu.foreground:   #BCC4C9
+dmenu.selbackground: #506A68
+dmenu.selforeground: #fefefe
+dmenu.border_color: #0b0d0f

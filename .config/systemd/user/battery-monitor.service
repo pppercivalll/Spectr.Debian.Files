@@ -1,0 +1,13 @@
+[Unit]
+Description=Battery Monitor for Notifications
+After=graphical.target
+
+[Service]
+ExecStart=%h/.config/dunst/scripts/battery-monitor.sh
+# ExecStart=%h/.local/bin/battery-monitor.sh
+Restart=always
+Environment=DISPLAY=:0
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,46 @@
+## CAVA Configuration File
+
+[general]
+framerate = 60
+autosens = 1
+sensitivity = 60
+bars = 60
+bar_width = 2
+bar_spacing = 1
+lower_cutoff_freq = 50
+higher_cutoff_freq = 12000
+sleep_timer = 0
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+method = noncurses
+channels = stereo
+mono_option = average
+
+[color]
+gradient = 1
+gradient_color_1 = '#000000'
+gradient_color_2 = '#193534'
+gradient_color_3 = '#264E4C'
+gradient_color_4 = '#326A68'
+gradient_color_5 = '#4D8F8C'
+gradient_color_6 = '#70B3AE'
+gradient_color_7 = '#A4D9D6'
+gradient_color_8 = '#FFFFFF'
+
+[smoothing]
+integral = 77
+monstercat = 1
+waves = 0
+gravity = 60
+ignore = 1
+
+[eq]
+1 = 1.2   # bass boost
+2 = 1.0
+3 = 1.0   # mids
+4 = 0.9
+5 = 1.1   # treble

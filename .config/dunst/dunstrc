@@ -1,0 +1,113 @@
+# ===============================
+# DUNST CONFIGURATION FILE
+# ===============================
+
+[global]
+    ### Font & Format
+    font = Ubuntu Nerd Font 12
+    format = "<b>%s</b>\n%b"
+    word_wrap = yes
+    alignment = left
+    show_age_threshold = 60
+    ignore_newline = no
+
+    ### Geometry & Position
+    width = 350
+    origin = top-right
+    offset = 10x15
+
+    ### Spacing
+    separator_height = 2
+    padding = 17
+    horizontal_padding = 15
+    text_icon_padding = 8
+    line_height = 2
+    separator_color = auto
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 175
+    progress_bar_max_width = 325
+    progress_bar_corner_radius = 5
+
+    ### Icons
+    enable_recursive_icon_lookup = true
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 64
+    icon_path = /usr/share/icons/Papirus/32x32/apps/:/usr/share/icons/Papirus/32x32/status/:/usr/share/icons/Papirus/48x48/apps:/usr/share/icons/Papirus/48x48/status/:/usr/share/icons/Adwaita/symbolic/status/
+
+    ### Misc
+    dmenu = /usr/bin/dmenu -p "dunst:"
+    browser = /usr/bin/xdg-open
+    stack_duplicates = false
+    hide_duplicate_count = true
+
+    ### Frame
+    frame_width = 2
+    frame_color = "#506A68"
+
+[volume]
+    appname = "volume"
+    background  = "#1A2023"
+    foreground  = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight   = "#506A68"
+
+[brightness]
+    appname 	= "brightness"
+    background  = "#1A2023"
+    foreground  = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight 	= "#506A68"
+
+[battery]
+    appname = "battery"
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight = "#506A68"
+
+[music]
+    appname = "music"
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight = "#506A68"
+
+[download]
+    appname = "download"
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight = "#506A68"
+
+[flameshot]
+    appname = "flameshot"
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    highlight = "#506A68"
+    format = "📸 %s\n%b"
+
+
+# ===============================
+# Urgency Levels
+# ===============================
+
+[urgency_low]
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    timeout = 1
+
+[urgency_normal]
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    timeout = 2
+
+[urgency_critical]
+    background = "#1A2023"
+    foreground = "#BCC4C9"
+    frame_color = "#506A68"
+    timeout = 0

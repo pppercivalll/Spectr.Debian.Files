@@ -1,0 +1,12 @@
+[stream-properties]
+Audio/Sink/Internal:node.name:OBS:\sApplication\sAudio\sCapture\s(PipeWire)={"volume":1.000000, "channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000]}
+Audio/Sink:node.name:auto_null={"mute":false, "channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000]}
+Input/Audio:application.id:org.PulseAudio.pavucontrol={"channelVolumes":[1.000000], "volume":1.000000, "channelMap":["MONO"], "mute":false}
+Input/Audio:application.name:PipeWire\sALSA\s\oobs\c={"volume":1.000000, "mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}
+Input/Audio:media.role:Music={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false}
+Input/Audio:media.role:Production={"channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"], "volume":1.000000}
+Output/Audio:application.name:Brave={"channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false}
+Output/Audio:application.name:Chromium={"channelMap":["FL", "FR"], "volume":1.000000, "mute":false, "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:application.name:mpv={"channelMap":["FL", "FR"], "mute":false, "volume":1.000000, "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:media.role:Movie={"channelVolumes":[1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000], "channelMap":["FL", "FR", "SL", "SR", "FC", "LFE"], "volume":1.000000, "mute":false}
+Output/Audio:media.role:Notification={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false}

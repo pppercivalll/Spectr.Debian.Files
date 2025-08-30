@@ -1,0 +1,50 @@
+   101.8ms (setup:1108): 2025-08-26 20:44:16
+   101.8ms (setup:1109): /usr/bin/pipx inject gns3-gui gns3-server PyQt5
+   101.9ms (setup:1110): pipx version is 1.7.1
+   101.9ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   102.7ms (run_pipx_command:233): Virtual Environment location is /home/annpenrose/.local/share/pipx/venvs/gns3-gui
+   102.7ms (inject:135): Injecting packages: ['PyQt5', 'gns3-server']
+   102.8ms (inject_dep:33): Injecting package PyQt5
+   103.8ms (run_subprocess:175): running <checking pip's availability>
+   114.4ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fd5a51d3250>, origin='/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   114.4ms (run_subprocess:198): returncode: 0
+   114.6ms (needs_upgrade:99): Time since last upgrade of shared libs, in seconds: 183292. Upgrade will be run by pipx if greater than 2592000.
+   114.8ms (run_subprocess:175): running <checking pip's availability>
+   124.4ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7efcb1d37250>, origin='/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   124.5ms (run_subprocess:198): returncode: 0
+   125.1ms (package_name_from_spec:378): Determined package name: pyqt5
+   125.1ms (package_name_from_spec:379): Package name determined in 0.0s
+   125.2ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   137.6ms (run_subprocess:195): stdout: /home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages
+   137.7ms (run_subprocess:198): returncode: 0
+   138.0ms (_parsed_package_to_package_or_url:139): cleaned package spec: pyqt5
+   138.0ms (install_package:247): Installing pyqt5
+   138.3ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -m pip --no-input install pyqt5
+ 16456.9ms (run_subprocess:198): returncode: 0
+ 16457.3ms (run_subprocess:175): running <fetch_info_in_venv commands>
+ 16473.1ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python313.zip", "/usr/lib/python3.13", "/usr/lib/python3.13/lib-dynload", "/home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages", "/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages"], "python_version": "3.13.6", "environment": {"implementation_name": "cpython", "implementation_version": "3.13.6", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.12.41+deb13-amd64", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Debian 6.12.41-1 (2025-08-12)", "python_full_version": "3.13.6", "platform_python_implementation": "CPython", "python_version": "3.13", "sys_platform": "linux"}}
+ 16473.2ms (run_subprocess:198): returncode: 0
+ 16514.4ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 57ms
+ 16514.5ms (_parsed_package_to_package_or_url:139): cleaned package spec: pyqt5
+ 16514.9ms (inject_dep:33): Injecting package gns3-server
+ 16515.3ms (run_subprocess:175): running <checking pip's availability>
+ 16524.5ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fec09cf7250>, origin='/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+ 16524.6ms (run_subprocess:198): returncode: 0
+ 16524.8ms (run_subprocess:175): running <checking pip's availability>
+ 16535.3ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fc2c35d3250>, origin='/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+ 16535.4ms (run_subprocess:198): returncode: 0
+ 16535.6ms (package_name_from_spec:378): Determined package name: gns3-server
+ 16535.6ms (package_name_from_spec:379): Package name determined in 0.0s
+ 16535.7ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+ 16546.9ms (run_subprocess:195): stdout: /home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages
+ 16547.0ms (run_subprocess:198): returncode: 0
+ 16547.2ms (_parsed_package_to_package_or_url:139): cleaned package spec: gns3-server
+ 16547.2ms (install_package:247): Installing gns3-server
+ 16547.5ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -m pip --no-input install gns3-server
+ 25852.7ms (run_subprocess:198): returncode: 0
+ 25853.1ms (run_subprocess:175): running <fetch_info_in_venv commands>
+ 25869.0ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python313.zip", "/usr/lib/python3.13", "/usr/lib/python3.13/lib-dynload", "/home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages", "/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages"], "python_version": "3.13.6", "environment": {"implementation_name": "cpython", "implementation_version": "3.13.6", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.12.41+deb13-amd64", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Debian 6.12.41-1 (2025-08-12)", "python_full_version": "3.13.6", "platform_python_implementation": "CPython", "python_version": "3.13", "sys_platform": "linux"}}
+ 25869.0ms (run_subprocess:198): returncode: 0
+ 26236.6ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 384ms
+ 26236.7ms (_parsed_package_to_package_or_url:139): cleaned package spec: gns3-server
+ 26237.3ms (cli:1187): pipx finished.

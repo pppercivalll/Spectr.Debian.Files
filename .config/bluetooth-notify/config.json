@@ -1,0 +1,13 @@
+{
+  "show_adapter_events": true,
+  "show_pairing_events": true,
+  "show_audio_events": true,
+  "show_device_info": true,
+  "notification_timeout": 5000,
+  "audio_device_types": [
+    "headset",
+    "headphones",
+    "speaker",
+    "audio"
+  ]
+}

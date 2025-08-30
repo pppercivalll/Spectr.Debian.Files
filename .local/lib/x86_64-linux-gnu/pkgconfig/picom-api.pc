@@ -1,0 +1,8 @@
+prefix=/home/annpenrose/.local
+includedir=${prefix}/include
+
+Name: picom-api
+Description: picom API headers
+Version: 12
+Requires: pixman-1, xcb
+Cflags: -I${includedir}/picom

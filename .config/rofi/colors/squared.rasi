@@ -1,0 +1,13 @@
+/**
+   * Colors
+   *
+   **/
+
+*{
+    background:     #1A2023FF;
+    background-alt: #252E33FF;
+    foreground:     #BCC4C9FF;
+    selected:       #506A68FF;
+    active:         #506A68FF;
+    urgent:         #506A68FF;
+}

@@ -1,0 +1,154 @@
+18:14:15.749: Using EGL/X11
+18:14:15.749: CPU Name: 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
+18:14:15.749: CPU Speed: 1474.586MHz
+18:14:15.749: Physical Cores: 2, Logical Cores: 4
+18:14:15.749: Physical Memory: 7732MB Total, 3290MB Free
+18:14:15.750: Kernel Version: Linux 6.12.41+deb13-amd64
+18:14:15.750: Distribution: "Debian GNU/Linux" "13"
+18:14:15.750: Session Type: tty
+18:14:15.750: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:14:15.751: Qt Version: 6.8.2 (runtime), 6.8.2 (compiled)
+18:14:15.751: Portable mode: false
+18:14:15.780: OBS 30.2.3.1-3 (linux)
+18:14:15.780: ---------------------------------
+18:14:15.780: ---------------------------------
+18:14:15.780: audio settings reset:
+18:14:15.780: 	samples per sec: 48000
+18:14:15.780: 	speakers:        2
+18:14:15.780: 	max buffering:   960 milliseconds
+18:14:15.780: 	buffering type:  dynamically increasing
+18:14:15.781: ---------------------------------
+18:14:15.781: Initializing OpenGL...
+18:14:15.861: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics (TGL GT2)
+18:14:15.861: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.7-2, shading language 4.60
+18:14:15.889: ---------------------------------
+18:14:15.889: video settings reset:
+18:14:15.889: 	base resolution:   1920x1080
+18:14:15.889: 	output resolution: 852x480
+18:14:15.889: 	downscale filter:  Bicubic
+18:14:15.889: 	fps:               30/1
+18:14:15.889: 	format:            NV12
+18:14:15.889: 	YUV mode:          Rec. 709/Partial
+18:14:15.889: NV12 texture support enabled
+18:14:15.889: P010 texture support not available
+18:14:15.892: Audio monitoring device:
+18:14:15.892: 	name: Default
+18:14:15.892: 	id: default
+18:14:15.893: ---------------------------------
+18:14:15.899: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:14:15.905: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:14:15.911: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:14:15.911: Failed to initialize module 'decklink.so'
+18:14:41.012: [portals] Error retrieving D-Bus proxy: Error calling StartServiceByName for org.freedesktop.portal.Desktop: Timeout was reached
+18:14:41.012: [pipewire] No capture sources available
+18:14:41.044: v4l2loopback not installed, virtual camera not registered
+18:14:41.124: VAAPI: API version 1.22
+18:14:41.124: FFmpeg VAAPI H264 encoding supported
+18:14:41.126: FFmpeg VAAPI AV1 encoding not supported
+18:14:41.127: FFmpeg VAAPI HEVC encoding supported
+18:14:41.161: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+18:14:41.161: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.2 | Qt version (run-time): 6.8.2
+18:14:41.161: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+18:14:41.165: [obs-websocket] [obs_module_load] Module loaded.
+18:14:41.196: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+18:14:41.196: ---------------------------------
+18:14:41.196:   Loaded Modules:
+18:14:41.196:     vlc-video.so
+18:14:41.196:     text-freetype2.so
+18:14:41.196:     rtmp-services.so
+18:14:41.196:     obs-x264.so
+18:14:41.196:     obs-websocket.so
+18:14:41.196:     obs-transitions.so
+18:14:41.196:     obs-outputs.so
+18:14:41.196:     obs-filters.so
+18:14:41.196:     obs-ffmpeg.so
+18:14:41.196:     linux-v4l2.so
+18:14:41.196:     linux-pulseaudio.so
+18:14:41.196:     linux-pipewire.so
+18:14:41.196:     linux-jack.so
+18:14:41.196:     linux-capture.so
+18:14:41.196:     linux-alsa.so
+18:14:41.196:     image-source.so
+18:14:41.196:     frontend-tools.so
+18:14:41.196:     decklink-output-ui.so
+18:14:41.196:     decklink-captions.so
+18:14:41.196: ---------------------------------
+18:14:41.196: ---------------------------------
+18:14:41.196: Available Encoders:
+18:14:41.196:   Video Encoders:
+18:14:41.196: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:14:41.196: 	- ffmpeg_aom_av1 (AOM AV1)
+18:14:41.196: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:14:41.196: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:14:41.196: 	- obs_x264 (x264)
+18:14:41.196:   Audio Encoders:
+18:14:41.196: 	- ffmpeg_aac (FFmpeg AAC)
+18:14:41.196: 	- ffmpeg_opus (FFmpeg Opus)
+18:14:41.196: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:14:41.196: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:14:41.196: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:14:41.196: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:14:41.196: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:14:41.196: ==== Startup complete ===============================================
+18:14:41.231: All scene data cleared
+18:14:41.232: ------------------------------------------------
+18:14:41.237: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+18:14:41.237: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:14:41.237: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Speaker__sink.monitor' (default)
+18:14:41.238: [Loaded global audio device]: 'Desktop Audio'
+18:14:41.238: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+18:14:41.238: pulse-input: Audio format: s24-32le, 48000 Hz, 2 channels
+18:14:41.238: pulse-input: Sample format s24-32le not supported by OBS,using float32le instead for recording
+18:14:41.238: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Mic2__source' (default)
+18:14:41.238: [Loaded global audio device]: 'Mic/Aux'
+18:14:41.240: xshm-input: Geometry 1920x1080 @ 0,0
+18:14:41.245: v4l2-input: Start capture from /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0
+18:14:41.359: v4l2-input: Input: 0
+18:14:41.386: v4l2-input: Resolution: 1280x720
+18:14:41.386: v4l2-input: Pixelformat: MJPG
+18:14:41.386: v4l2-input: Linesize: 0 Bytes
+18:14:41.386: v4l2-input: Framerate: 30.00 fps
+18:14:41.388: v4l2-input: /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0: select timeout set to 166666 (5x frame periods)
+18:14:41.390: Switched to scene 'Scene'
+18:14:41.390: ------------------------------------------------
+18:14:41.390: Loaded scenes:
+18:14:41.390: - scene 'Scene':
+18:14:41.390:     - source: 'Display Capture (XSHM)' (xshm_input)
+18:14:41.390:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+18:14:41.390: ------------------------------------------------
+18:14:41.558: v4l2-input: /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0: select timed out
+18:14:41.558: v4l2-input: /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0: failed to log status
+18:14:41.725: v4l2-input: /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0: select timed out
+18:14:41.725: v4l2-input: /dev/v4l/by-id/usb-Azurewave_XiaoMi_Webcam_SunplusIT_Inc-video-index0: failed to log status
+18:14:42.021: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:14:42.021: 
+18:16:38.061: xshm-input: Geometry 1920x1080 @ 0,0
+18:16:43.029: xshm-input: Geometry 1920x1080 @ 0,0
+18:16:47.174: ---------------------------------
+18:16:47.174: [x264 encoder: 'simple_video_recording'] preset: veryfast
+18:16:47.174: [x264 encoder: 'simple_video_recording'] profile: high
+18:16:47.174: [x264 encoder: 'simple_video_recording'] settings:
+18:16:47.174: 	rate_control: CRF
+18:16:47.174: 	bitrate:      0
+18:16:47.174: 	buffer size:  0
+18:16:47.174: 	crf:          18
+18:16:47.174: 	fps_num:      30
+18:16:47.174: 	fps_den:      1
+18:16:47.174: 	width:        852
+18:16:47.174: 	height:       480
+18:16:47.174: 	keyint:       250
+18:16:47.174: 
+18:16:47.180: ---------------------------------
+18:16:47.180: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+18:16:47.180: 
+18:16:47.183: ==== Recording Start ===============================================
+18:16:47.183: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/annpenrose/2025-08-14 18-16-47.mkv'...
+18:17:21.281: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/annpenrose/2025-08-14 18-16-47.mkv' stopped
+18:17:21.281: Output 'simple_file_output': stopping
+18:17:21.281: Output 'simple_file_output': Total frames output: 1002
+18:17:21.281: Output 'simple_file_output': Total drawn frames: 1023
+18:17:21.281: ==== Recording Stop ================================================
+18:18:29.023: The X11 connection broke (error 1). Did the X11 server die?
+18:18:29.038: QThreadStorage: Thread 0x560cc3253b80 exited after QThreadStorage 3 destroyed
+18:18:29.038: QThreadStorage: Thread 0x560cc3253b80 exited after QThreadStorage 2 destroyed
+18:18:29.038: QThreadStorage: Thread 0x560cc3253b80 exited after QThreadStorage 1 destroyed

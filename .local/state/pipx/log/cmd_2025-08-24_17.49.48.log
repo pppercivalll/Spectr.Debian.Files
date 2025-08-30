@@ -1,0 +1,34 @@
+    68.5ms (setup:1108): 2025-08-24 17:49:48
+    68.6ms (setup:1109): /usr/bin/pipx install gns3-gui
+    68.6ms (setup:1110): pipx version is 1.7.1
+    68.6ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+    69.3ms (package_name_from_spec:378): Determined package name: gns3-gui
+    69.3ms (package_name_from_spec:379): Package name determined in 0.0s
+    69.4ms (create_venv:164): Creating virtual environment
+    69.7ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/annpenrose/.local/share/pipx/venvs/gns3-gui
+    99.9ms (run_subprocess:195): stdout:
+   100.0ms (run_subprocess:197): stderr:
+   100.0ms (run_subprocess:198): returncode: 0
+   100.4ms (run_subprocess:175): running <checking pip's availability>
+   109.5ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff68b4d7250>, origin='/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   109.6ms (run_subprocess:198): returncode: 0
+   109.7ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   122.6ms (run_subprocess:195): stdout: /home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages
+   122.6ms (run_subprocess:198): returncode: 0
+   122.9ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   133.9ms (run_subprocess:195): stdout: /home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages
+   134.0ms (run_subprocess:198): returncode: 0
+   134.3ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python --version
+   135.2ms (run_subprocess:195): stdout: Python 3.13.6
+   135.2ms (run_subprocess:197): stderr:
+   135.3ms (run_subprocess:198): returncode: 0
+   135.4ms (_parsed_package_to_package_or_url:139): cleaned package spec: gns3-gui
+   135.4ms (install_package:247): Installing gns3-gui
+   135.6ms (run_subprocess:175): running /home/annpenrose/.local/share/pipx/venvs/gns3-gui/bin/python -m pip --no-input install gns3-gui
+  4072.7ms (run_subprocess:198): returncode: 0
+  4073.1ms (run_subprocess:175): running <fetch_info_in_venv commands>
+  4089.6ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python313.zip", "/usr/lib/python3.13", "/usr/lib/python3.13/lib-dynload", "/home/annpenrose/.local/share/pipx/venvs/gns3-gui/lib/python3.13/site-packages", "/home/annpenrose/.local/share/pipx/shared/lib/python3.13/site-packages"], "python_version": "3.13.6", "environment": {"implementation_name": "cpython", "implementation_version": "3.13.6", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.12.41+deb13-amd64", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Debian 6.12.41-1 (2025-08-12)", "python_full_version": "3.13.6", "platform_python_implementation": "CPython", "python_version": "3.13", "sys_platform": "linux"}}
+  4089.6ms (run_subprocess:198): returncode: 0
+  4136.3ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 63ms
+  4136.4ms (_parsed_package_to_package_or_url:139): cleaned package spec: gns3-gui
+  4137.7ms (cli:1187): pipx finished.

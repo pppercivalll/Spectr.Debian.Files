@@ -1,0 +1,9 @@
+/**
+ * 
+ * Fonts
+ *
+ **/
+
+* {
+    font: "Font Awesome 6 Free 12, AdwaitaMono Nerd Font 11";
+}
