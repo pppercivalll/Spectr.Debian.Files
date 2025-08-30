@@ -1,6 +1,6 @@
 # Spectr.Debian.Files
 
-> My personal Squared themed Debian desktop dotfiles, featuring the minimalist and dynamic tiling window manager, Spectrwm.
+> My personal Squared themed Debian desktop dotfiles, featuring the minimalist and dynamic tiling window manager, SpectrWM.
 
 ![screenshot](./src/SS1.png)
 
@@ -9,7 +9,7 @@
 
 | Component | Description |
 |-----------|-------------|
-| Spectrwm  | A minimalist tiling window manager for X11, inspired by xmonad and dwm. |
+| SpectrWM  | A minimalist tiling window manager for X11, inspired by xmonad and dwm. |
 | Picom     | A lightweight compositor for X11, used for transparency and shadow effects. |
 | Rofi      | A versatile window switcher, application launcher, and dmenu replacement. |
 | Dunst     | A lightweight and customizable notification daemon. |
